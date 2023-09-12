@@ -19,7 +19,8 @@ public class PROJECT1_bmical{
      System.out.println("bmi is under 18.5 -> underweight");
      System.out.println("bmi is between 18.5 and 24.9 -> normal weight");
      System.out.println("bmi is above 24.9 -> overweight");
-     System.out.println("Your bmi is " + bmi);
+     System.out.println();
+     System.out.println("Your bmi is " + String.format("%.2f", bmi));
    
      
      if(bmi<18.5){
