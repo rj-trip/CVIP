@@ -9,6 +9,10 @@ public class PROJECT1_bmical{
      System.out.println("enter weight in kg");
      double weight=s.nextDouble();
 
+      if(height<=0||weight<=0){
+        System.out.println("Please enter valid height and weight");
+     }
+      
      double bmi = (weight/((height*height)/10000));
 
      System.out.println("Some useful information:");
@@ -17,10 +21,8 @@ public class PROJECT1_bmical{
      System.out.println("bmi is above 24.9 -> overweight");
      System.out.println("Your bmi is " + bmi);
    
-     if(height<=0||weight<=0){
-        System.out.println("Please enter valid height and weight");
-     }
-     else if(bmi<18.5){
+     
+     if(bmi<18.5){
         System.out.println("Ohh!! You are underweight");
      }
      else if(18.5<bmi&& bmi<24.9){
