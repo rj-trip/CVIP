@@ -64,7 +64,7 @@ public class PROJECT2_feeManagement{
 
        Scanner s = new Scanner(System.in);
 
-        System.out.println("Enter studen name: ");
+        System.out.println("Enter student name: ");
         String name = s.nextLine();
 
         System.out.println("Enter total fees");
