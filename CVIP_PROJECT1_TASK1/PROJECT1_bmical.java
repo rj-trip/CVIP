@@ -4,10 +4,10 @@ public class PROJECT1_bmical{
      Scanner s = new Scanner(System.in);
 
      System.out.println("enter height in cm");
-     int height=s.nextInt();
+     double height=s.nextDouble();
 
      System.out.println("enter weight in kg");
-     int weight=s.nextInt();
+     double weight=s.nextDouble();
 
      double bmi = (weight/((height*height)/10000));
 
