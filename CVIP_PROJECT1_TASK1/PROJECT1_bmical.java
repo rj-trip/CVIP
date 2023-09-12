@@ -26,7 +26,7 @@ public class PROJECT1_bmical{
      if(bmi<18.5){
         System.out.println("Ohh!! You are underweight");
      }
-     else if(18.5<bmi&& bmi<24.9){
+     else if(18.5<bmi && bmi<24.9){
         System.out.println("Congratulations!! You are Healthy");
      }
      else{
